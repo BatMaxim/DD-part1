@@ -6,9 +6,10 @@
     <title>Title</title>
 </head>
 <body>
+    <a href="#" class="up-btn">Назад</a>
     <header class="header">
         <div class="header__top center">
-            <div class="logo">
+            <div  class="logo">
                 <img src="./img/React-icon.png" alt="logo" class="logo__img">
                 <div class="logo__name react-color">React</div>
             </div>
@@ -25,6 +26,63 @@
             <a class="header__bottom-btn" href="https://ru.reactjs.org/docs/getting-started.html">Документация</a>
         </div>
     </header>
-    
+    <main class="center">
+        <div class="contents">
+            <h2 class="heading">Оглавление</h2>
+            <ol>
+                <li><a href="#about">Что такое React?</a></li>
+                <li><a href="#sandboxes">Онлайн-песочницы</a></li>
+                <li><a href="#learn">Изучаем React</a></li>
+            </ol>
+        </div>
+        <div class="react-desc">
+            <h2 class="heading" id="about">Что такое React?</h2>
+            <p class="react-desc__text">
+                React изначально был спроектирован так, чтобы его можно было внедрять постепенно.
+                Другими словами, вы можете начать с малого и использовать только ту функциональность React,
+                которая необходима вам в данный момент. Информация в этом разделе будет полезна в любой ситуации:
+                при первом знакомстве с React, при создании простой динамической HTML-страницы и даже при
+                проектировании сложного React-приложения.
+            </p>
+        </div>
+        <div class="react-desc">
+            <h2 class="heading" id="sandboxes">Онлайн-песочницы</h2>
+            <p class="react-desc__text">Если вы просто хотите немного поиграть с React,
+                попробуйте онлайн-песочницу. Например, вот простейший шаблон на
+                <a href="https://codepen.io/pen?&editors=0010&layout=left">CodePen</a>,
+                <a href="https://codesandbox.io/s/new">CodeSandbox</a> или
+                <a href="https://stackblitz.com/edit/react-mppzsp">Stackblitz</a>.
+                Если вы предпочитаете работать в своём редакторе,
+                <a href="https://raw.githubusercontent.com/reactjs/reactjs.org/main/static/html/single-file-example.html">
+                    скачайте тестовый HTML-файл,
+                </a>
+                добавьте в него код и запустите на своём компьютере.
+                При открытии тестового файла браузер преобразует JSX в обычный код на JavaScript.
+                Такое преобразование достаточно медленно, поэтому мы рекомендуем использовать этот
+                файл только для простых демонстрационных примеров.</p>
+        </div>
+        <div class="react-desc">
+            <h2 class="heading" id="learn">Изучаем React</h2>
+            <p class="react-desc__text">
+                Люди приходят к React с разным опытом и стилем обучения. Некоторые предпочитают учиться на ходу,
+                а кому-то нравится сначала овладеть теорией. В любом случае мы надеемся, что этот раздел будет для вас полезен.
+            </p>
+            <ul>
+                <li class="react-desc__text">
+                    Если вам больше нравится учиться на ходу, начните с
+                    <a href="https://ru.reactjs.org/tutorial/tutorial.html">введения</a>.
+                </li>
+                <li class="react-desc__text">
+                    Если вы хотите сначала овладеть теорией, то начните с
+                    <a href="https://ru.reactjs.org/docs/hello-world.html">пошагового описания React</a>.
+                </li>
+            </ul>
+            <p class="react-desc__text">
+                Люди приходят к React с разным опытом и стилем обучения. Некоторые предпочитают учиться на ходу,
+                а кому-то нравится сначала овладеть теорией. В любом случае мы надеемся, что этот раздел будет для вас полезен.
+            </p>
+        </div>
+    </main>
+<script src="./js/index.js"></script>
 </body>
 </html>
